@@ -1,0 +1,9 @@
+---
+# Front matter dashes instruct Jekyll to run the Sass preprocessor
+---
+
+// 1. Redefine the header accent border variable first
+$border-color-03: #ff0078;
+
+// 2. Pull in the core Minima theme styles
+@import "minima";
